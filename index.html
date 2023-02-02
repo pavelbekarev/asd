@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <title>Личный сайт верстальщика</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Личный сайт верстальщика</h1>
+        <a href="img/avatar.jpg" download><img class="logo" src="img/person-fill.svg" alt="логотип"></a>
+        <nav>
+            <ul class="main-menu">
+                <li class="_main"><a class="item-a" href="#">Главная</a></li>
+                <li class="_about"><a class="item-a" href="#about">Обо мне</a></li>
+                <li class="_articles"><a class="item-a" href="#articles">Мои статьи</a></li>
+                <li class="_about"><a class="item-a" href="#feedback">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-me" id="about">
+            <h2>Обо мне</h2>
+            <img src="https://lh3.googleusercontent.com/a-/ACNPEu_CwtfVF_sg8HEfgIewbRsU5t6Pilr-V7uDZ2UuHQ=s360-p-rw-no" alt="аватар">
+            <figcaption><i>Фотография верстальщика</i></figcaption>
+            <p lang="en" class="about-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate excepturi id non! Animi qui quam quisquam ea explicabo mollitia delectus doloremque vel provident, id nostrum! Temporibus fugiat minima suscipit delectus earum pariatur tempore aut ea, voluptatem totam dolor voluptate dolore quaerat at consequuntur debitis magni sint. Dolorem, maxime odit! Sit voluptas et cum, tempora, ducimus natus autem minima cupiditate ex assumenda fugit laboriosam est tempore omnis deserunt provident sunt vel! Nam, asperiores velit quam suscipit fugiat voluptate provident labore dolore beatae esse, iusto aperiam nisi. Ut quibusdam, error obcaecati aperiam modi quo optio vel tempore neque quia ducimus nam ullam voluptate expedita, repellendus recusandae dicta iste cumque iure dolor. Rem adipisci voluptates debitis doloremque id molestiae labore earum, atque officia quisquam qui. Corporis magni, tempora placeat libero amet reiciendis, voluptatibus inventore unde nobis vero illo numquam mollitia sapiente quaerat tempore porro minima quidem id sit autem. Consequuntur magni mollitia aut aliquid quas? Praesentium numquam quibusdam necessitatibus odit eaque maxime fugit iure harum nisi, sint dolorum enim alias quasi magnam cum voluptas magni officiis qui nobis. Explicabo ipsam sunt debitis nam vel earum, enim tempore quas numquam nisi voluptatem provident accusamus inventore delectus deleniti incidunt doloremque accusantium officia expedita eligendi odio cum fugiat et. Earum, iure atque non hic perspiciatis vel. Sapiente dignissimos fuga earum consequuntur ipsam rem nulla harum placeat quisquam est. Saepe quod et distinctio exercitationem quas praesentium sunt corrupti eius ratione id odit repellendus, cum totam repellat culpa laboriosam rerum voluptatum tenetur optio illo dolorem dicta? Possimus, corrupti!
+            </p>
+            <p lang="ru" class="about-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nisi nulla eos similique illum consectetur obcaecati rem sint quisquam, laborum, amet ratione iste ipsam architecto quam odio aut esse qui deserunt totam cumque ab consequuntur nostrum. Voluptatibus quia quidem earum ducimus assumenda dicta doloribus, totam dignissimos, modi natus suscipit, eaque neque a error eius sunt praesentium nihil commodi illum sit quae. Cum doloremque voluptas eos illo quisquam reprehenderit iure earum, explicabo inventore voluptatum necessitatibus temporibus nobis asperiores reiciendis! Sint a quos soluta voluptate quidem unde dolor! Eaque tempora atque sapiente nihil odio animi obcaecati, mollitia quas, ad a harum enim voluptate accusantium dolor, nobis magnam doloremque eius ipsa voluptatibus ea repellat id quos magni numquam. Eveniet velit aliquid architecto voluptatem tenetur nisi dolores cumque accusantium nulla, possimus commodi enim fugit repellat, expedita veritatis repellendus voluptate. Accusamus reprehenderit officia consequatur molestiae, quos eveniet explicabo, qui dolores eligendi, enim repudiandae incidunt error!
+            </p>
+        </section>
+
+
+        <section class="articles" id="articles">
+            <h2 class="title">Мои статьи</h2>
+            <ul class="list-articles">
+                <li><a class="article-buttons" href="article1.html">Что такое HTML и как его изучать?</a></li>
+                <li class="new-article"><a class="article-buttons" href="top-IDE.html">Что такое IDE? Топ лучших IDE</a></li>
+                <li><a class="article-buttons" href="#">Определение структуры сайта</a></li>
+                <li><a class="article-buttons important" href="termins.html">Список терминов</a></li>
+                <li><a class="article-buttons" href="#">Базовые знания HTML</a></li>
+                <li><a class="article-buttons" href="#">Пример HTML кода</a></li>
+            </ul>
+        </section>
+
+        <section id="feedback">
+            <form id="contact-form" action="">
+                <h2 class="feedb-title">Обратная связь</h2>
+                <div class="form_item">
+                    <label for="email">Введите Email</label><br>
+                    <input id="email" type="email" placeholder="Введите Email" required autofocus><br>
+                </div>
+                <div class="form_item">
+                    <label for="password">Введите пароль</label><br>
+                    <input id="password" type="password" placeholder="Введите пароль" required><br>
+                </div>
+
+                <div class="form_item">
+                    <label for="topic">Тема</label><br>
+                    <select name="topic" id="topic">
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставить отзыв</option>
+                        <option value="3">Предложить сотрудничество</option>
+                        <option value="4">Прочее</option>
+                    </select>
+                </div>
+
+                <div class="form_item">
+                    <label for="textarea">Текст сообщения</label><br>
+                    <textarea name="" id="textarea" cols="20" rows="10" placeholder="Введите текст сообщения" required></textarea>
+                </div>
+                    
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="" checked required>Согласен с политикой конфиденциальности
+                    </label>
+                </div>
+
+                <div class="radiobox">
+                    <label>
+                        <input type="radio" name="optionsR" id="optionsR1" value="option1" checked="">Учитель
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="optionsR" id="optionsR1" value="option1" checked="">Ученик
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="optionsR" id="optionsR1" value="option1" checked="">Родитель
+                    </label><br>
+                </div>
+                
+                <div>
+                    <input type="submit" value="ОТПРАВИТЬ">
+                </div>
+
+                <div class="ttime">
+                    <time datetime="2022-10-26">
+                        26.10.2022
+                    </time>
+                </div>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer-p">
+            &copy; Бекарев Павел, 2022г.
+        </p>
+
+        <p class="footer-p">
+            <a target="_blank" href="https://portal.midis.info/company/personal/user/18534/">Вы также можете найти меня здесь</a>
+        </p>
+        <a target="_blank" href="https://web.telegram.org/z/"><img class="social_links" src="img/telegram.svg" alt="Логотип Telegram"></a>
+        <a target="_blank" href="https://vk.com/bekarev_ps"><img class="social_links" src="img/vk.svg" alt="Логотип VK"></a>
+
+        <address>
+            <a class="phone_number address_a" href="tel:+892531233223">+892531233223</a>
+            <a class="phone_number address_a" href="mailto: fsadjb@gmail.com">fsadjb@gmail.com</a>
+        </address>
+    </footer>   
+
+</body>
+
+</html>
